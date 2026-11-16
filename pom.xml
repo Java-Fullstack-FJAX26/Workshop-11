@@ -23,7 +23,7 @@
 
     <build>
         <directory>${project.basedir}/out</directory>
-        <sourceDirectory>${project.basedir}</sourceDirectory>
+        <sourceDirectory>${project.basedir}/src</sourceDirectory>
         <testSourceDirectory>${project.basedir}/tests</testSourceDirectory>
         <plugins>
             <plugin>
@@ -35,15 +35,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.14.0</version>
-                <configuration>
-                    <includes>
-                        <include>*.java</include>
-                    </includes>
-                    <excludes>
-                        <exclude>out/**</exclude>
-                        <exclude>tests/**</exclude>
-                    </excludes>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
