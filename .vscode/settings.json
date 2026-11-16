@@ -1,6 +1,6 @@
 {
-    "java.project.sourcePaths": ["."],
-    "java.project.outputPath": "out",
+    "java.import.maven.enabled": true,
+    "java.configuration.updateBuildConfiguration": "automatic",
     "files.exclude": {
         "out": true
     }
