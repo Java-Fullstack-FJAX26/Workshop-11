@@ -1,4 +1,4 @@
 @FunctionalInterface
 public interface LogFormatterStrategy {
-    String format(String message);
+    String format(LogLevel level, String message);
 }
