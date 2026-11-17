@@ -1,0 +1,10 @@
+demo\logging\FileAppender.class
+demo\logging\CsvLogFormatter.class
+demo\logging\ConsoleAppender.class
+demo\logging\LogLevel.class
+demo\logging\LogFormatterStrategy.class
+demo\logging\TextLogFormatter.class
+demo\logging\Main.class
+demo\logging\LogManager.class
+demo\logging\LogAppender.class
+demo\logging\LogAppenderFactory.class
